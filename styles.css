@@ -1,0 +1,361 @@
+body{
+    font-family: "Marcellus", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+        
+    
+#coffee_bg{
+    background: url("Coffee_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}   
+#header{
+    backdrop-filter: blur(0.3rem);
+    display: flex;
+    justify-content: space-between;
+}
+#mean_bar{
+    color: whitesmoke;
+    padding: 2rem;
+    font-size: larger;
+}
+span{
+    margin-right: 2rem;
+    text-decoration: none;
+}
+#Home:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+#Shop:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+#About{
+    color: white;
+}
+#Home{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#Contact{
+    color: white;
+}
+#About:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+#Contact:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+#main_sec{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 60vh;
+}
+#life{
+    backdrop-filter: blur(0.3rem);
+    height: 15vh;
+    width: auto;
+
+}
+#shop{
+    color: white;
+    border: 2px solid white;
+    width: 7vw;
+    font-size: larger;
+    padding: 1rem;
+    cursor: pointer;
+}
+#shop_btn{
+    text-align: center;
+    padding-bottom: 20px;
+    display: inline;
+}
+#shop:hover{
+    background-color: rgb(182, 133, 59);
+    border:2px solid rgb(182, 133, 59);
+
+}
+#sec_header{
+    padding-top: 2rem;
+    font-size:45px;
+    font-family: Marcellus, sans-serif;
+    font-weight :400px;
+    font-style:normal;
+    font-variant:normal;
+}
+#img_coffee{
+    width: 20rem;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+#contact_bg{
+    background: url(contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+
+}
+#name{
+    padding: 1rem;
+    margin: 2rem;
+    width: 30rem;
+
+}
+#email{
+    padding: 1rem;
+    margin: 2rem;
+    width: 30rem;
+}
+#message{
+    padding: 3rem;
+    margin: 1rem;
+    width: 27rem;
+    border: 1px thick black;
+}
+#sent_button:hover{
+    background-color: burlywood;
+    color: white;
+    border: 1px solid burlywood;
+}
+#img_BeanVarieties{
+    width: 20rem;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+#img_Pastry{
+    width: 20rem;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+#img_CoffeeToGo{
+    width: 20rem;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+#list_mean{
+    padding: 1rem;
+    display: flex;
+    margin: 1rem;
+}
+#para:hover{
+    color: rgb(129, 88, 39);
+    
+}
+#Heading_Herald{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight:400;
+    padding-top: 4rem;
+}
+#coffee_herald_bg{
+    background-image: url("coffee_herald_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+#Herald_pic{
+    display: flex;
+    padding-left: 2rem;
+}
+#logo_back_bg_sec3{
+    background-image: url("logo_back_bg_sec3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+}
+#count_bg{
+    background-color: white;
+    height: auto;
+}
+#count_number{
+    font-size: 5rem;
+    font-weight: 300;
+    color: burlywood;
+    display: inline-block;
+    font-family: Marcellus, sans-serif ;
+
+}
+#count_div{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+#count_main_div{
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+}
+#online_page{
+    background: url('online_shop_bg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+}
+#online_header{
+    padding-top: 5rem;
+    font-size:45px;
+    font-family: Marcellus, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-variant:normal;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+
+}
+#product_div{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    font-weight: 20px;
+    font-size:1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-family: Marcellus, sans-serif;
+
+
+
+}
+#prduct1{
+    padding: 2rem;
+    cursor: pointer;
+}
+#prduct1:hover{
+    padding: 0;
+}
+#prduct2{
+    padding: 2rem;
+    cursor: pointer;
+
+}
+#prduct2:hover{
+    padding: 0;
+}
+#prduct3{
+    padding: 2rem;
+    cursor: pointer;
+
+}
+#prduct3:hover{
+    padding: 0;
+}
+#prduct4{
+    padding: 2rem;
+    cursor: pointer;
+
+}
+#prduct4:hover{
+    padding: 0;
+}
+#gallery_pic{
+    padding:3rem;
+    margin: 3rem;
+}
+#contant_mini{
+    background-image: url('bg_contant_mini.jpg');
+    height: 15vh;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+#mini_content{
+    background-color: burlywood;
+    padding: 1.8rem;
+}
+#mini_content:hover{
+    color: white;
+}
+#about_us_bg{
+    background: url('about_us_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+
+
+}
+
+@media screen and (max-width: 1200px) {
+ #list_mean{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        text-align: center;
+
+    }
+    #life{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #Herald_pic{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        text-align: center;
+        background-image: url("coffee_herald_bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #count_main_div{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        text-align: center;
+        padding-top:3rem ;
+        padding-bottom: 3rem;
+    }
+    #count_div{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #count_main_div{
+        background-color: white;
+    }
+    #product_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url('online_shop_bg.jpg');
+
+    }
+    #gallery_pic{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #gallery{
+        width: 100vh;
+        padding: 1rem;
+    }
+    
+    
+}
