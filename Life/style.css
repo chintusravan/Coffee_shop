@@ -1,0 +1,23 @@
+header{
+    border-radius: 45px;
+    height: 45px;
+    background-color: rgb(241, 169, 91);
+    text-align: center;
+    margin: 15px;
+}
+.nav{
+    display: inline-block;
+    color: black;
+    font-size:x-large;
+    padding: 2px;
+}
+.aboutbar{
+    background-color: lightgrey;
+    width: 35%;
+    border-radius: 25px;
+}
+.data{
+    background-color: lightsteelblue;
+    width: 50%;
+    border-radius: 20px;
+}
